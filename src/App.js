@@ -9,7 +9,7 @@ function App() {
   let [cartValue, setCartValue] = useState(0);
   const [isAdded, setIsAdded] = useState(false);
   function handleIncrement() {
-    if (value !== 25) {
+    if (value !== 30) {
       setValue(value + 1);
     }
   }
